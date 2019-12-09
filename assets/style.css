@@ -14,7 +14,8 @@
 }
 
 html.black img.banner {
-    content:url("rennab.jpg");
+    content:url("banner.jpg");
+    filter:invert(100%)
 }
 
 html.black {

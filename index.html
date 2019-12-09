@@ -24,18 +24,6 @@
 
         ///
 
-        let hiddenImageSelector = document.querySelector('#hiddenImage');
-        let hiddenImageObject = new Image;
-        hiddenImageObject.onload = function() {
-            if(hiddenImageSelector) {
-                console.log(hiddenImageObject, hiddenImageSelector)
-                hiddenImageSelector.src = this.src;                
-            }
-        }
-        hiddenImageObject.src = 'assets/rennab.jpg';
-
-        ///
-
         function toggleTheme() {
              let htmlDom = document.querySelector('#htmlid');
              let element = document.querySelector('#toggle');
