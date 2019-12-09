@@ -1,11 +1,11 @@
 ::selection {
     color: #fff;
-    background-color: #ff9f43;
+    background-color: #995E00;
 }
 
 ::-moz-selection {
     color: #fff;
-    background-color: #ff9f43;
+    background-color: #995E00;
 }
 
 .container {
@@ -26,6 +26,10 @@ html.black p.subtitle {
     color: #f7f7f7;
 }
 
+html.black span.subtitle {
+    color: #f7f7f7;
+}
+
 html.black strong {
     color: #fff;
 }
@@ -40,7 +44,7 @@ html.black #aboutText {
 
 html.black a {
     filter: contrast(10%) saturate(300%) brightness(140%);
-    color: #fff;
+    color: #995E00;
 }
 
 html.black .nav a {
@@ -54,6 +58,10 @@ body {
 
 .nav a {
     border-bottom: none;
+}
+
+a {
+    color: #003C9A;
 }
 
 p.subtitle {
@@ -78,4 +86,8 @@ img.banner {
     height: auto;
     width: 700px;
     border-radius: 5px;
+}
+
+hr {
+    max-width: 700px;
 }
