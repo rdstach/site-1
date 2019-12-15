@@ -15,7 +15,6 @@
 
 html.black img.banner {
     content:url("banner.jpg");
-    filter:invert(100%)
 }
 
 html.black {
@@ -68,7 +67,6 @@ a {
 p.subtitle {
     max-width: 700px;
     text-align: left;
-    /* line-height: 1.8em; */
 }
 
 p.subtitle.is-5 {
